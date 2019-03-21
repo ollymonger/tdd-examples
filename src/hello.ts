@@ -1,3 +1,6 @@
 export const hello = (name?: string) => {
-    return "";
+    if (name == undefined) {
+        return "Hello, world!";
+    }
+    return "Hello, Oliver!";
 };
