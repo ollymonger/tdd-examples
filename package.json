@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ollymonger/tdd-examples/issues"
   },
-  "homepage": "https://github.com/ollymonger/tdd-examples#readme"
+  "homepage": "https://github.com/ollymonger/tdd-examples#readme",
+  "devDependencies": {
+    "alsatian": "^2.4.0",
+    "typescript": "^3.3.4000"
+  }
 }
