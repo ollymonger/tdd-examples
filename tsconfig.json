@@ -1,0 +1,11 @@
+
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "experimentalDecorators": true
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./test/**/*.ts"
+    ]
+}
