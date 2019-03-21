@@ -1,0 +1,19 @@
+{
+  "name": "tdd-examples",
+  "version": "1.0.0",
+  "description": "TDD examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollymonger/tdd-examples.git"
+  },
+  "author": "ollymonger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ollymonger/tdd-examples/issues"
+  },
+  "homepage": "https://github.com/ollymonger/tdd-examples#readme"
+}
