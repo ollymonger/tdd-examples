@@ -1,4 +1,4 @@
-import { TestFixture, Test, Expect } from "alsatian";
+import { TestFixture, Test, Expect, TestCase } from "alsatian";
 import { hello } from "./hello";
 
 @TestFixture()
@@ -11,18 +11,13 @@ export class HelloTests {
         Expect(result).toBe("Hello, world!");
     }
     
-    @Test()
-    public shouldReturnHelloOliverWhenNameGivenAsOliver() {
-        const result = hello("Oliver");
+    @TestCase("Oliver")
+    @TestCase("James")
+    public shouldReturnHelloNameWhenNameGiven(name: string) {
+        const expected = "Hello, " + name + "!";
+        const result = hello(name);
 
-        Expect(result).toBe("Hello, Oliver!");
-    }   
-
-    @Test()
-    public shouldReturnHelloJamesWhenNameGivenAsJames() {
-        const result = hello("James");
-
-        Expect(result).toBe("Hello, James!");
+        Expect(result).toBe(expected);
     }
 
 }
