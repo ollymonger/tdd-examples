@@ -10,7 +10,7 @@ export class LimitTest {
     @TestCase(3,1,8,4)
     public shouldAddFirstAndSecondNumberAndReturnIfBelowLimit(firstNumber: number, secondNumber: number, limit: number, expected:number) {
         const result = limitAdd(firstNumber,secondNumber,limit);
-        
+            
         Expect(result).toBe(expected);
     }
 }

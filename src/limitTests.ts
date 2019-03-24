@@ -4,6 +4,6 @@ export const limitAdd = (firstNumber: number, secondNumber: number, limit: numbe
         return result;
     }
     else{
-        return limit;
+        return limit; 
     }
 }
