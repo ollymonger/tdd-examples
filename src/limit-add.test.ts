@@ -3,7 +3,7 @@ import { limitAdd } from "./limit-add";
 
 
 @TestFixture()
-export class LimitTest {
+export class LimitAddTests {
 
     @TestCase(1, 2, 4)
     @TestCase(5, 2, 10)

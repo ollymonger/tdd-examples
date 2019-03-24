@@ -4,7 +4,5 @@ export const limitAdd = (firstValue: number, secondValue: number, limit: number)
     if (result <= limit) {
         return result;
     }
-    else {
-        return limit;
-    }
+    return limit;
 }
