@@ -2,7 +2,7 @@ import { TestFixture, Expect, TestCase, Any } from "alsatian";
 import { average } from "./averageTest";
 
 @TestFixture()
-export class averageTest {
+export class AverageTest {
 
     @TestCase([3, 4], 3.5)
     @TestCase([7, 4, 3], 4.666666666666667)
