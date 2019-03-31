@@ -14,7 +14,5 @@ export const getCorrectGear = (speed: number) => {
     if (speed >= 50 && speed <= 65) {
         return 4;
     }
-    if (speed >= 65) {
-        return 5;
-    }
+    return 5;
 }
