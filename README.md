@@ -1,3 +1,3 @@
 # tdd-examples
 
-Some examples to learn Test Driven Development
+These are some examples of showing how to use test driven development (TDD).
